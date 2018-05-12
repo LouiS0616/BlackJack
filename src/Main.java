@@ -1,5 +1,8 @@
+import cards.ordered.Deck;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("hoge");
+        Deck deck = Deck.makeDeck();
+        deck.printCards();
     }
 }
